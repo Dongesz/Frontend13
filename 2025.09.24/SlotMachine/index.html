@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dongesolots</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app" role="application" aria-label="Slot machine">
+    <section class="card">
+      <header class="title">
+        <h1><span>Dongesolots</span></h1>
+        <div class="balance" aria-live="polite">Balance: <span class="value" id="balance">1,000</span> 💰</div>
+      </header>
+
+      <div class="reels" aria-label="Reels">
+        <div class="reel" aria-label="Reel 1"><div class="strip"></div></div>
+        <div class="reel" aria-label="Reel 2"><div class="strip"></div></div>
+        <div class="reel" aria-label="Reel 3"><div class="strip"></div></div>
+        <div class="win-burst" id="winBurst">WIN!</div>
+      </div>
+
+      <div class="controls">
+        <div class="left">
+          <div class="input" aria-label="Bet input">
+            <label for="bet">Bet</label>
+            <input id="bet" type="number" min="1" max="10000" step="1" value="10" aria-label="Bet amount" />
+          </div>
+          <button id="spinBtn" class="btn" aria-label="Spin (Space)">SPIN</button>
+          <button id="autoBtn" class="btn secondary" aria-pressed="false" aria-label="Auto 10 spins">AUTO ×10</button>
+        </div>
+        <div class="right">
+          <div class="message" id="message" aria-live="polite"></div>
+          <div class="note">Press <b>Space</b> to spin • Three-of-a-kind pays</div>
+        </div>
+      </div>
+
+      <div class="paytable" aria-label="Paytable">
+        <div>💎×3: <b>×15</b></div>
+        <div>🔔×3: <b>×8</b></div>
+        <div>⭐×3: <b>×6</b></div>
+        <div>🍒×3: <b>×3</b></div>
+        <div>🍋/🍊×3: <b>×2</b></div>
+        <div class="note">7×3: <b>×50</b> (jackpot)</div>
+      </div>
+    </section>
+  </main>
+
+  <div class="sr-only" id="aria-live" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
