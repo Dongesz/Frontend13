@@ -1,0 +1,7 @@
+
+# Minden node_modules ignorálása bármilyen alprojektben
+**/node_modules/
+
+# build / dist mappák ignorálása (React build után)
+**/build/
+**/dist/
