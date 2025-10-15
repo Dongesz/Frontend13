@@ -1,0 +1,55 @@
+/* Reset */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Alap stílus */
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #121212, #1e1e1e);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Listaelemek */
+li {
+  margin: 0 1.5rem;
+  position: relative;
+}
+
+/* Linkek */
+a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover effekt */
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:hover::after {
+  width: 100%;
+}
