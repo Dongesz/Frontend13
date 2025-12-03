@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.text{
+  display: table;
+  margin: auto;
+  font-size: 50px;
+  font-family: sans-serif;
+  line-height: 100px;
+  color: white;
+}
+
+#bluebox{
+  background-color: blue;
+}
+
+#redbox{
+  background-color: red;
+}

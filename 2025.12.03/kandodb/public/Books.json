@@ -1,0 +1,25 @@
+{
+    "movies": [
+      {
+        "image": "newhope.jpg",
+        "title": "Harry Potter es a bolcsek kove",
+        "rating": "5/5",
+        "desc": "Nagyon jó",
+        "category": "Fantasy"
+      },
+      {
+        "image": "empire.jpg",
+        "title": "Harry Potter es a titkok kamraja",
+        "rating": "5/5",
+        "desc": "Még jobb",
+        "category": "Fantasy"
+      },
+      {
+        "image": "jedi.jpg",
+        "title": "Harry Potter es az azkabani fogoly",
+        "rating": "4/5",
+        "desc": "Nagyon jó",
+        "category": "Fantasy"
+      }
+    ]
+  }
