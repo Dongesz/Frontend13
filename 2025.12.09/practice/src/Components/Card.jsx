@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Card({item}) {
+export default function Card({item, color}) {
   return (
-    <div className="card m-3" style={{width: "18rem"}}>
+    <div className="card m-3" style={{width: "18rem", backgroundColor: color}}>
         <img className="card-img-top" src={item.image} alt="Card image cap"/>
         <div className="card-body">
             <h5 className="card-title">{item.title}</h5>
