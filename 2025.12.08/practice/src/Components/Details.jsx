@@ -1,6 +1,5 @@
 import React from 'react'
-
-export default function Details({setCardColor, cardColor, setScore, score}) {
+`export default function Details({setCardColor, cardColor, setScore, score}) {
   return (
     <div className='container d-flex justify-content-center align-items-center  bg-secondary w-25'>
         <form className='row m-4'>
