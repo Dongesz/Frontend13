@@ -27,14 +27,16 @@ function App() {
       rating: "10/10"
     },
   ]
-  const [cardColor, setcardColor] = useState()
+  const [cardColor, setcardColor] = useState("#ffffff")
+  const [score, setScore] = useState(false)
+
   return (
     <div className="App row justify-content-center m-3">
       {books.map(x =>
-        <Card id = {x.id} title={x.title} text={x.text} image={x.image} rating={x.rating} cardColor = {cardColor}/>
+        <Card id = {x.id} title={x.title} text={x.text} image={x.image} rating={x.rating} cardColor = {cardColor} score={score}/>
       )}
       <div>
-        <Details setCardColor={setcardColor} cardColor={cardColor}/>
+        <Details setCardColor={setcardColor} cardColor={cardColor}  setScore={setScore} score={score}/>
       </div>
       
     </div>

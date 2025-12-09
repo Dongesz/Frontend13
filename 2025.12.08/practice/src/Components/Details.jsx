@@ -1,13 +1,14 @@
 import React from 'react'
 
-export default function Details({setCardColor, cardColor}) {
+export default function Details({setCardColor, cardColor, setScore, score}) {
   return (
     <div>
         <form>
             <input 
               type="checkbox" 
               id="show" name="desc" 
-              value="Show score"/>
+              value={score}
+              onChange={(e) => setScore(!score)}/>
             <input 
               type="color" 
               id="favcolor" 
