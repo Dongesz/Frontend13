@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Nissan Silvia S15",
+    "manufacturer": "Nissan",
+    "generation": "1999-2002",
+    "legendReason": "Drift-ikon, könnyű kupé, hatalmas tuningpotenciállal.",
+    "imageUrl": "https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Toyota Supra MK4",
+    "manufacturer": "Toyota",
+    "generation": "1993-2002",
+    "legendReason": "2JZ turbómotor, dombrontó tuningrekordok és popkult legenda.",
+    "imageUrl": "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Mazda RX-7 FD",
+    "manufacturer": "Mazda",
+    "generation": "1992-2002",
+    "legendReason": "Wankel forgódugattyús motor és ikonikus kupéforma.",
+    "imageUrl": "https://images.pexels.com/photos/2100199/pexels-photo-2100199.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Nissan Skyline GT-R R34",
+    "manufacturer": "Nissan",
+    "generation": "1999-2002",
+    "legendReason": "AWD, RB26DETT motor és Godzilla néven ismert pályafenevad.",
+    "imageUrl": "https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Honda NSX (NA1)",
+    "manufacturer": "Honda",
+    "generation": "1990-2005",
+    "legendReason": "Alumínium kasztni, Ayrton Senna által finomhangolt futómű.",
+    "imageUrl": "https://images.pexels.com/photos/210010/pexels-photo-210010.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Mitsubishi Eclipse GSX",
+    "manufacturer": "Mitsubishi",
+    "generation": "1995-1999",
+    "legendReason": "Turbo, összkerék, 90-es évek tuningkultúrájának ikonja.",
+    "imageUrl": "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Mitsubishi 3000GT",
+    "manufacturer": "Mitsubishi",
+    "generation": "1990-2001",
+    "legendReason": "Aktív aerodinamika, AWD és korához képest high-tech GT.",
+    "imageUrl": "https://images.pexels.com/photos/244258/pexels-photo-244258.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Toyota Celica GT-Four",
+    "manufacturer": "Toyota",
+    "generation": "ST205 (1994-1999)",
+    "legendReason": "Rally-homologizációs modell, ikonikus WRC kapcsolatokkal.",
+    "imageUrl": "https://images.pexels.com/photos/244553/pexels-photo-244553.jpeg"
+  }
+]
