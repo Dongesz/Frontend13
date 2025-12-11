@@ -1,7 +1,15 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <div className='d-flex justify-content-center m-3'>
+            <h1>Üdv a JDM Legends Garage-ben!</h1>
+        </div>
+        <div className='d-flex justify-content-center m-3'>
+            <Link to={'/legends'}><h3>Tovabb a legandakra!</h3></Link>
+        </div>
+    </div>
   )
 }
