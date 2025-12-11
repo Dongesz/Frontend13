@@ -8,7 +8,7 @@ export default function Home() {
             <h1>Üdv a JDM Legends Garage-ben!</h1>
         </div>
         <div className='d-flex justify-content-center m-3'>
-            <Link to={'/legends'}><h3>Tovabb a legandakra!</h3></Link>
+            <Link to={'/legends'}><h3>Tovább a legendákra!</h3></Link>
         </div>
     </div>
   )

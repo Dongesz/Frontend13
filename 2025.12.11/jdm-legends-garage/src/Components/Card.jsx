@@ -4,8 +4,10 @@ export default function Card({car}) {
   return (
     <div class="card m-3" style={{width: "18rem"}}>
         <img src={car.imageUrl} class="card-img-top" alt={car.name}/>
-        <div class="card-body">
-            <h5 class="card-title">{car.name}</h5>
+        <div class="card-body text-center">
+            <h3 class="card-title">{car.name}</h3>
+            <h5 class="card-text">{car.manufacturer}</h5>
+            <h6 class="card-text">{car.generation}</h6>
             <p class="card-text">{car.legendReason}</p>
         </div>
     </div>
