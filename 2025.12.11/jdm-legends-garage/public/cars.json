@@ -5,7 +5,7 @@
     "manufacturer": "Nissan",
     "generation": "1999-2002",
     "legendReason": "Drift-ikon, könnyű kupé, hatalmas tuningpotenciállal.",
-    "imageUrl": "https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Nissan_Silvia_S15_001.JPG/330px-Nissan_Silvia_S15_001.JPG"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "manufacturer": "Toyota",
     "generation": "1993-2002",
     "legendReason": "2JZ turbómotor, dombrontó tuningrekordok és popkult legenda.",
-    "imageUrl": "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/1994_Toyota_Supra_Sport_Roof_in_Red%2C_front_left.jpg/330px-1994_Toyota_Supra_Sport_Roof_in_Red%2C_front_left.jpg"
   },
   {
     "id": 3,
@@ -29,15 +29,15 @@
     "manufacturer": "Nissan",
     "generation": "1999-2002",
     "legendReason": "AWD, RB26DETT motor és Godzilla néven ismert pályafenevad.",
-    "imageUrl": "https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Nissan_Skyline_GT-R_R34_V_Spec_II.jpg/330px-Nissan_Skyline_GT-R_R34_V_Spec_II.jpg"
   },
   {
     "id": 5,
-    "name": "Honda NSX (NA1)",
+    "name": "Honda NSX (NA1/2)",
     "manufacturer": "Honda",
     "generation": "1990-2005",
     "legendReason": "Alumínium kasztni, Ayrton Senna által finomhangolt futómű.",
-    "imageUrl": "https://images.pexels.com/photos/210010/pexels-photo-210010.jpeg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Honda_NSX_red.jpg/330px-Honda_NSX_red.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "manufacturer": "Mitsubishi",
     "generation": "1995-1999",
     "legendReason": "Turbo, összkerék, 90-es évek tuningkultúrájának ikonja.",
-    "imageUrl": "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Mitsubishi_Eclipse_front_20080801.jpg/330px-Mitsubishi_Eclipse_front_20080801.jpg"
   },
   {
     "id": 7,
@@ -53,14 +53,30 @@
     "manufacturer": "Mitsubishi",
     "generation": "1990-2001",
     "legendReason": "Aktív aerodinamika, AWD és korához képest high-tech GT.",
-    "imageUrl": "https://images.pexels.com/photos/244258/pexels-photo-244258.jpeg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mitsubishi_3000GT_--_03-21-2012.JPG/330px-Mitsubishi_3000GT_--_03-21-2012.JPG"
   },
   {
     "id": 8,
-    "name": "Toyota Celica GT-Four",
+    "name": "Toyota Celica GT-Four (ST205)",
     "manufacturer": "Toyota",
     "generation": "ST205 (1994-1999)",
     "legendReason": "Rally-homologizációs modell, ikonikus WRC kapcsolatokkal.",
-    "imageUrl": "https://images.pexels.com/photos/244553/pexels-photo-244553.jpeg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/1994_Toyota_Celica_GT-4_2.0.jpg/330px-1994_Toyota_Celica_GT-4_2.0.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Honda Prelude",
+    "manufacturer": "Honda",
+    "generation": "1997-2001",
+    "legendReason": "A Honda Prelude egy sportos kupé, orrmotoros, elsőkerék meghajtású sportkocsi.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1998_Honda_Prelude_VTi_Automatic_2.2.jpg/250px-1998_Honda_Prelude_VTi_Automatic_2.2.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Sileighty",
+    "manufacturer": "Honda",
+    "generation": "1998",
+    "legendReason": "A japán tuningcég Kid's Heart 500 darabot gyártott a hivatalos 180SX és Silvia hibridből, amely Sileighty néven ismert.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Sil-180SX_%28cropped%29.JPG/250px-Sil-180SX_%28cropped%29.JPG"
   }
 ]

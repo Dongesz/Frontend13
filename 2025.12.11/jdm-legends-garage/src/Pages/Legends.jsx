@@ -12,7 +12,8 @@ export default function Legends() {
     
   return (
     <div>
-        <div className='row d-flex justify-content-center m-4'>
+        <div className='row d-flex justify-content-center ms-5 me-5 mt-1'>
+          <h1 className='d-flex justify-content-center mb-4'>My favourite JDM cars</h1>
             {
                 cars.map((car, index) => (
                     <Card key={index} car={car}/>
