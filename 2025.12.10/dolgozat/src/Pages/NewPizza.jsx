@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function NewPizza() {
     const [name, setName] = useState("");
     const [imageUrl, setImageUrl] = useState("");
-  
+    const navigate = useNavigate();
     function handleSubmit(e) {
       e.preventDefault();
   
@@ -22,9 +22,10 @@ export default function NewPizza() {
           })
             .then(res => res.json())
             .then(data => {
-              console.log("Siker:", data);
+              alert("Adatok tarolasa sikeres")
               setName("");
               setImageUrl("");
+              navigate("/");
             })
             .catch(err => {
               console.error("Hiba:", err);
