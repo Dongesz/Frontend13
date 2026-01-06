@@ -1,13 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <div>
-        <h1>Üdv a weboldalunkn!</h1>
-    <br />
-    <br />
-        <Link to="/jatekosok">Tovabb a jatekosainkra</Link>
+    <div className="m-3 d-flex flex-column align-items-center">
+      <h2 className='mt-5'>Darts feladat weboldal</h2>
+      <Link to="/jatekosok" className="btn btn-primary">Tovább a játékosokhoz
+      </Link>
     </div>
-  )
+  );
 }
